@@ -10,8 +10,14 @@ After reading the list and the files that it indicates, cyclically, displays a p
 
   <b>t</b> – (titles) displays the audio track list sorted by Title. If there are multiple tracks with
   identical title, successively applies the order by Artist and Album;
+  
+  <b>s word</b> – (search) displays the list of audio tracks whose title contains the given word. the
+  ordering is identical to the t command;
 
   <b>q</b> – (quit) finish.
 
 The lists are produced in standard output, by executing the commands, and their order is alphabetical growing. 
 The information of each audio track is displayed in one line, containing the tag fields and the name of the corresponding MP3 file.
+
+Preview: 
+![image](https://user-images.githubusercontent.com/61992267/127020725-b7b5e14a-2cb9-41ac-967a-5952293ab00c.png)
